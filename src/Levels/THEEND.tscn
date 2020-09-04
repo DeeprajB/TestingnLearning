@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/montserrat_extrabold.otf" type="DynamicFontData" id=1]
+
+[sub_resource type="DynamicFont" id=1]
+size = 100
+font_data = ExtResource( 1 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -0.0662165
+margin_bottom = -0.0662231
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer"]
+margin_left = 731.247
+margin_top = 457.81
+margin_right = 1264.25
+margin_bottom = 725.81
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 13.5
+custom_fonts/normal_font = SubResource( 1 )
+custom_colors/default_color = Color( 0.960784, 0.952941, 0.968627, 1 )
+custom_colors/font_color_selected = Color( 0.984314, 0.94902, 0.94902, 1 )
+tab_size = 12
+text = "THE END"
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": "Hello"
+}
